@@ -33,7 +33,7 @@ public class Task implements Comparable<Task> {
 	public int compareTo(Task t) {
 		return this.date.compareTo(t.date);  //比較するもの.compareTo(比較されるもの)
 	}
-	
+	//変数出力時に適用されるメソッド	
 	@Override
 	public String toString() {
 		return this.date + " " + this.task;
